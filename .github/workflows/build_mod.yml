@@ -29,6 +29,6 @@ jobs:
         uses: actions/upload-artifact@v2.2.1
         with:
           name: blaze-cane.jar
-          path: ./build/libs/*.jar
+          path: ./build/libs/blazecane-1.0.jar
           if-no-files-found: error
   
