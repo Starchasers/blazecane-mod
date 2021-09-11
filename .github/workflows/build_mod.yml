@@ -25,4 +25,10 @@ jobs:
         run: chmod u+x ./gradlew
       - name: Gradle Build Action
         uses: gradle/gradle-build-action@v1.5.1
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2.2.1
+        with:
+          name: blaze-cane.jar
+          path: ./build/libs/*.jar
+          if-no-files-found: error
   
