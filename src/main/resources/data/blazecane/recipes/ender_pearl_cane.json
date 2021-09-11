@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    " xc",
+    " z "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "forge:gems/diamond"
+    },
+    "z":
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    "c":
+    {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result":
+  {
+    "item": "blazecane:ender_pearl_cane",
+    "count": 1
+  }
+}

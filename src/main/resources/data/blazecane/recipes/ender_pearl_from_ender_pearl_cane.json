@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "blazecane:ender_pearl_cane"
+    },
+    {
+      "item": "blazecane:ender_pearl_cane"
+    },
+    {
+      "item": "blazecane:ender_pearl_cane"
+    },
+    {
+      "item": "blazecane:ender_pearl_cane"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 1
+  }
+}

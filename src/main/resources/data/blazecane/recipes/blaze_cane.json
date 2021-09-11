@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    " xc",
+    " z "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "forge:ingots/iron"
+    },
+    "z":
+    {
+      "item": "minecraft:magma_cream"
+    },
+    "c":
+    {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result":
+  {
+    "item": "blazecane:blaze_cane",
+    "count": 1
+  }
+}
